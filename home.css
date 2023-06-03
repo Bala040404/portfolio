@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #14213d;
+    /* background-image: url("background.jpg"); */
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#navbar {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    background-color: #011722;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+}
+
+#portfolio {
+    font-weight: 600;
+    margin: 0px 25px;
+    flex-grow: 5;
+}
+
+
+#home {
+    color: #00daf0;
+    flex-grow: 0.7;
+    font-weight: 300;
+}
+
+#about {
+
+    color: white;
+    flex-grow: 0.7;
+    font-weight: 300;
+}
+
+#achievements {
+    color: white;
+    flex-grow: 0.7;
+    font-weight: 300;
+}
+
+
+#contact {
+    color: white;
+    flex-grow: 0.7;
+    font-weight: 300;
+}
+
+#home:hover {
+
+    color: #00daf0;
+    cursor: pointer;
+}
+
+#about:hover {
+    color: #00daf0;
+    cursor: pointer;
+}
+
+#achievements:hover {
+    color: #00daf0;
+    cursor: pointer;
+}
+
+#contact:hover {
+    color: #00daf0;
+    cursor: pointer;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+
+}
+
+#text {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 80px;
+    margin-right: 200px;
+    font-size: 80px;
+    color: cyan;
+}
+
+#photo img {
+    margin-top: 20px;
+    width: 400px;
+    height: 500px;
+    border: 2px solid rgb(2, 17, 81);
+    box-shadow: 0.3em 0.5em 5em -0.1em rgba(82, 231, 231, 0.5);
+    border-radius: 20%;
+    transition: 0.5s;
+}
+
+#photo img:hover {
+    transform: translateY(-0.55em);
+    box-shadow: 0 0.8em 1em -0.4em rgba(82, 231, 231, 0.5);
+}

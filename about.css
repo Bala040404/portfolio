@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #14213d;
+
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#navbar {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    background-color: #011722;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+}
+
+#portfolio {
+    font-weight: 600;
+    margin: 0px 25px;
+    flex-grow: 5;
+}
+
+
+#home {
+    color: white;
+    flex-grow: 0.7;
+    font-weight: 300;
+}
+
+#about {
+
+    color: #00daf0;
+    flex-grow: 0.7;
+    font-weight: 300;
+}
+
+#achievements {
+    color: white;
+    flex-grow: 0.7;
+    font-weight: 300;
+}
+
+
+#contact {
+    color: white;
+    flex-grow: 0.7;
+    font-weight: 300;
+}
+
+#home:hover {
+
+    color: #00daf0;
+    cursor: pointer;
+}
+
+#about:hover {
+    color: #00daf0;
+    cursor: pointer;
+}
+
+#achievements:hover {
+    color: #00daf0;
+    cursor: pointer;
+}
+
+#contact:hover {
+    color: #00daf0;
+    cursor: pointer;
+}
+
+#card1 {
+    font-family: 'Poppins', sans-serif;
+    height: 300px;
+    font-weight: 600;
+    width: 300px;
+    font-size: 20px;
+    color: #ffffff;
+    border: 2px solid cyan;
+    transition: 0.5s;
+    background-image: url("webdev.avif");
+    background-size: cover;
+    box-shadow: 0.3em 0.5em 5em -0.1em rgba(22, 70, 193, 0.6);
+}
+
+#card2 {
+    font-family: 'Poppins', sans-serif;
+    height: 300px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    box-shadow: 0.3em 0.5em 5em -0.1em rgba(22, 70, 193, 0.6);
+    background-image: url("softwaredev.avif");
+    background-size: cover;
+    border: 2px solid cyan;
+    transition: 0.5s;
+}
+
+#card3 {
+    font-family: 'Poppins', sans-serif;
+    height: 300px;
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    font-weight: 600;
+    box-shadow: 0.3em 0.5em 5em -0.1em rgba(22, 70, 193, 0.6);
+    background-image: url("academia.avif");
+    background-size: cover;
+    border: 2px solid cyan;
+    transition: 0.5s;
+}
+
+#contents {
+    margin-left: 160px;
+    display: flex;
+
+    height: 90vh;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#card1 span {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#card2 span {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#card3 span {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#card1:hover {
+    color: #00daf0;
+    transform: translateY(-7px);
+    box-shadow: 0.3em 0.5em 5em -0.1em rgba(22, 70, 193, 0.9);
+}
+
+
+#card2:hover {
+    color: #00daf0;
+    transform: translateY(-7px);
+    box-shadow: 0.3em 0.5em 5em -0.1em rgba(22, 70, 193, 0.9);
+}
+
+#card3:hover {
+    color: #00daf0;
+    transform: translateY(-7px);
+    box-shadow: 0.3em 0.5em 5em -0.1em rgba(22, 70, 193, 0.9);
+}
